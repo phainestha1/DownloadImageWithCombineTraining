@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @StateObject var mainViewModel = MainViewModel()
+    
     var body: some View {
         NavigationView {
             List {
-                Text("Hello, world!")
-                    .padding()
+                ForEach(mainViewModel.dataArray) { model in
+                    ListCell(model: model)
+                }
             }
             .navigationTitle("Main")
             
