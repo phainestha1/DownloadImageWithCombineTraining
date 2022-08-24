@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3EFE1A28B5C6F80061239D /* PhotoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EFE1928B5C6F80061239D /* PhotoCacheManager.swift */; };
 		7A78A66428B279B000B6A0CA /* DownloadImageWithCombineTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78A66328B279B000B6A0CA /* DownloadImageWithCombineTrainingApp.swift */; };
 		7A78A66628B279B000B6A0CA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78A66528B279B000B6A0CA /* MainView.swift */; };
 		7A78A66828B279B200B6A0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A78A66728B279B200B6A0CA /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3EFE1928B5C6F80061239D /* PhotoCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCacheManager.swift; sourceTree = "<group>"; };
 		7A78A66028B279B000B6A0CA /* DownloadImageWithCombineTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImageWithCombineTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A78A66328B279B000B6A0CA /* DownloadImageWithCombineTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageWithCombineTrainingApp.swift; sourceTree = "<group>"; };
 		7A78A66528B279B000B6A0CA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				7A78A67928B27AEF00B6A0CA /* DownloadImageDataService.swift */,
+				7A3EFE1928B5C6F80061239D /* PhotoCacheManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				7A78A68128B2875C00B6A0CA /* ImageView.swift in Sources */,
 				7A78A67A28B27AEF00B6A0CA /* DownloadImageDataService.swift in Sources */,
 				7A78A66628B279B000B6A0CA /* MainView.swift in Sources */,
+				7A3EFE1A28B5C6F80061239D /* PhotoCacheManager.swift in Sources */,
 				7A78A68328B2879100B6A0CA /* ImageViewModel.swift in Sources */,
 				7A78A66428B279B000B6A0CA /* DownloadImageWithCombineTrainingApp.swift in Sources */,
 				7A78A67F28B286CF00B6A0CA /* ListCell.swift in Sources */,

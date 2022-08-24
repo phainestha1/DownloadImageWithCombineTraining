@@ -13,6 +13,7 @@ struct ListCell: View {
     var body: some View {
         HStack {
             ImageView(url: model.url, key: "\(model.id)")
+                .frame(width: 75, height: 75)
             
             VStack(alignment: .leading) {
                 Text(model.title)

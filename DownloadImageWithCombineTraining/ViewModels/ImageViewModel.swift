@@ -13,13 +13,22 @@ final class ImageViewModel: ObservableObject {
     @Published var image: UIImage? = nil
     @Published var isLoading: Bool = false
     var cancellables = Set<AnyCancellable>()
+    let manager: PhotoCacheManager = PhotoCacheManager.shared
     let urlString: String
     let imageKey: String
     
     init(url: String, key: String) {
         self.urlString = url
         self.imageKey = key
-        downloadImage()
+        getImage()
+    }
+    
+    private func getImage() {
+        if let savedImage = manager.get(key: imageKey) {
+            image = savedImage
+        } else {
+            downloadImage()
+        }
     }
     
     private func downloadImage() {
